@@ -1,0 +1,88 @@
+***************
+*** 19,21
+- Some symbols can be in more than one category.  Also note that treasure may
+- be embedded in a wall, and the wall must be removed before the treasure can
+- be picked up.
+--- 19,21 -----
++ Some symbols are used to represent more than one type of entity, and some
++ symbols are used to represent entities in more than one category.  The "@"
++ symbol (by default) is used to represent the character.
+***************
+*** 27
+- Note that you can use a "pref" file to change any of these symbols to
+--- 27 -----
++ Note that you can use a "user pref file" to change any of these symbols to
+***************
+*** 36
+-   ;   A loose floor stone             4   Entrance to Temple
+--- 36 -----
++   ;   A glyph of warding              4   Entrance to Temple
+***************
+*** 61,63
+-   ~   Junk, Skeletons, etc            )   A shield
+-   ~   Lites, Tools, Chests, etc
+-  
+--- 61,62 -----
++   ~   Lites, Tools, Chests, etc       )   A shield
++   ~   Junk, Sticks, Skeletons, etc    &   (unused)
+***************
+*** 78
+-             j   Jelly               J   (unused)
+--- 77 -----
++             j   Jelly               J   Snake
+***************
+*** 81
+-             m   Mold                M   Mummy
+--- 80 -----
++             m   Mold                M   Multi-Headed Hydra
+***************
+*** 91
+-             w   Worm or Worm Mass   W   Wight/Wraith.
+--- 90 -----
++             w   Worm or Worm Mass   W   Wight/Wraith
+***************
+*** 94
+-             z   Zombie              Z   Zephyr Hound
+--- 93 -----
++             z   Zombie/Mummy        Z   Zephyr Hound
+***************
+*** 101
+- eight buildings each with an entrance, some townspeople, and a wall which
+--- 100 -----
++ eight buildings (each with an entrance), some townspeople, and a wall which
+***************
+*** 124,132
+- === Supplies ===
+- 
+- Your character will begin his adventure with some supplies already on him.
+- Use the "Inventory" command ("i") to check what these supplies are.  It may
+- be necessary to buy other supplies before continuing into the dungeon,
+- however, so be sure to enter each of the stores to see what they have for
+- sale.
+- 
+- 
+--- 0 -----
+***************
+*** 0
+--- 125,127 -----
++ Your character will begin his adventure with some basic supplies, and some
++ extra gold with which to purchase more supplies at the town stores.
++ 
+***************
+*** 161
+- You will also see an (incomplete) list of available commands.
+--- 154,156 -----
++ You will also see an (incomplete) list of available commands.  Note that
++ many of the commands which work in the dungeon work in the stores as well,
++ but some do not, especially those which involve "using" objects.
+***************
+*** 169
+- the store owner to clear out his stock and acquire new items.
+--- 164,166 -----
++ the store owner to clear out his stock and acquire new items.  If you have
++ a lot of spare gold, you can purchase every item in a store, which will
++ induce the store owner to bring out new stock, and perhaps even retire.
+***************
+*** 177
+- 
+--- 0 -----

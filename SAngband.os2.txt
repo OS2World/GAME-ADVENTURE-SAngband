@@ -1,0 +1,12 @@
+
+SAngband 0.9.3 for OS/2 build 1
+
+An Angband variant by Michael Gorse
+Ported to OS/2 by Marco G. Salvagno <whiz@iol.it>
+
+Notes: this version has been compiled with a patched main-emx (from Angband
+2.8.1) and a patched makefile. No other changes were made. Little testing was
+made, so this build can have bugs, for which I refuse any responsibility.
+Anyway, you can report bugs to whiz@iol.it, or fix the code by yourself.
+
+Thanks to James Denholm-Pryce for his work on Angband 2.8.1.
